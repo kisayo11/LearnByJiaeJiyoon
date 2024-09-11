@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#6200EE</color> <!-- Dark Purple -->
+    <color name="colorPrimaryVariant">#3700B3</color> <!-- Darker Purple -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- White -->
+    <color name="colorSecondary">#03DAC6</color> <!-- Teal -->
+    <color name="colorSecondaryVariant">#018786</color> <!-- Darker Teal -->
+    <color name="colorOnSecondary">#000000</color> <!-- Black -->
+    <color name="colorBackground">#FFFFFF</color> <!-- White -->
+    <color name="colorOnBackground">#000000</color> <!-- Black -->
+    <color name="colorSurface">#FFFFFF</color> <!-- White -->
+    <color name="colorOnSurface">#000000</color> <!-- Black -->
+    <color name="colorError">#B00020</color> <!-- Red -->
+    <color name="colorOnError">#FFFFFF</color> <!-- White -->
+    <color name="colorAccent">#FF4081</color> <!-- Pink -->
+    <color name="colorButton">#6200EE</color> <!-- Dark Purple -->
+    <color name="colorText">#000000</color> <!-- Black -->
+    <color name="colorInfo">#2196F3</color> <!-- Blue -->
+    <color name="colorSuccess">#4CAF50</color> <!-- Green -->
+    <color name="colorWarning">#FFC107</color> <!-- Amber -->
+    <color name="colorDisabled">#BDBDBD</color> <!-- Grey -->
+</resources>

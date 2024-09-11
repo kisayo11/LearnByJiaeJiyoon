@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "738494959237",
+    "project_id": "englishwithjiae",
+    "storage_bucket": "englishwithjiae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738494959237:android:44ab2d93b97b46815be3ec",
+        "android_client_info": {
+          "package_name": "com.kisayo.englishwithjiae"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYJ5zBLZMKrsKTRhAaby1cvofcROelwsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

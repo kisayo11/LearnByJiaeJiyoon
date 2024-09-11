@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_Sheet_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:background="@drawable/background_bottom_sheet"
+    android:clickable="true"
+    android:focusable="true"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="55dp"
+    android:orientation="vertical"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <DatePicker
+            android:id="@+id/date_Picker"
+            android:layout_width="wrap_content"
+            android:layout_height="405dp"
+            android:layout_centerHorizontal="true"
+            android:calendarViewShown="false"
+            android:datePickerMode="calendar" />
+
+
+        <ImageView
+            android:id="@+id/yearcalendar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="40dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/baseline_calendar_today_24" />
+
+        <RelativeLayout
+        android:background="#fff"
+        android:id="@+id/getdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_Picker"
+        >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            style="@style/Widget.MaterialComponents.Button"
+            android:text="Get"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>
+

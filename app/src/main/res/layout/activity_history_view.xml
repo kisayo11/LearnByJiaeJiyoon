@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/history_title"
+        android:layout_margin="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="업데이트 예정"/>
+
+    <ListView
+        android:layout_below="@id/history_title"
+        android:id="@+id/historyListView"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="200dp" />
+
+    <ScrollView
+        android:layout_below="@id/historyListView"
+        android:id="@+id/developer_page"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="버전관리\n 2024-08-26 첫 퍼블리싱"/>
+
+
+
+    </ScrollView>
+</RelativeLayout>
