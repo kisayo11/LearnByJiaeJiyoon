@@ -62,6 +62,7 @@
             android:layout_centerVertical="true"
             android:layout_marginTop="20dp"
             android:textSize="18dp"
+            android:text="test line"
             android:textStyle="bold" />
     </RelativeLayout>
     </RelativeLayout>
